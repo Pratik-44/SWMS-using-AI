@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWMS
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../static/styles/style.css" />
+    <link rel="stylesheet" href="../static/styles/AboutUs.css">
+  </head>
+  <body>
+    
+    <div class="head">
+
+        <nav>
+            <h4>Logo</h4>
+            <ul>
+                <li> <a href="/" >Home</a></li>
+                <li> <a href="/AboutUs" style=" font-weight: bolder ; box-shadow: 0px 5px #377f8e" >About Us</a></li>
+            <li><a href="/services"> Services</a></li>
+            <li> <a href="/ContactUs">Contact Us</a></li>
+        </ul>
+        <button>Contact Us</button>
+    </nav>
+
+           <img src="{{ url_for('static', filename='Service/au-img.png') }}" alt="Image 1">
+
+    <div class="au">
+    <div class="s1">
+        <p class="cu-subhead">Streamlining Productivity And Customer Satisfaction</p>
+        <h1 class="cu-head">Benefits Of Our Website Services</h1>
+    </div>
+    <div class="s2">
+        <p>Our website services are designed to provide comprehensive solutions for streamlining your business processes. By leveraging today's modern
+            technology, we offer a variety of features that can help you improve productivity while also improving customer satisfaction. With our easy-to-use 
+            platform, managing your projects become simpler and faster than ever before. And with unlimited scalability, you can deploy the same solution 
+            across multiple locations without worrying about compatibility or performance issues. Get ready to experience an all new level of efficiency 
+            with our top notch website services!</p>
+        <a href="#"><button class="center-btn">LEARN MORE</button></a>
+    </div>
+    </div>
+
+    <div class="results">
+        <h1 class="cu-head">Our results</h1>
+        <p class="space">We're proud of what we've achieved, but we're not stopping there.</p>
+    <div class="re-grid-container">
+        <div class="grid-item">
+           <img src="{{ url_for('static', filename='Service/re1.png') }}" alt="Image 1">
+            <p class="data">5</p>
+            <p class="cu-subhead1">YEARS OF EXPERIENCE</p>
+        </div>
+        <div class="grid-item">
+           <img src="{{ url_for('static', filename='Service/re2.png') }}" alt="Image 1">
+            <p class="data">100%</p>
+            <p class="cu-subhead1">HAPPY CLIENTS</p>
+        </div>
+        <div class="grid-item">
+           <img src="{{ url_for('static', filename='Service/re1.png') }}" alt="Image 1">
+            <p class="data">50+</p>
+            <p class="cu-subhead1">EVENTS HOSTED</p>
+        </div>
+        <div class="grid-item">
+           <img src="{{ url_for('static', filename='Service/re1.png') }}" alt="Image 1">
+            <p class="data">230</p>
+            <p class="cu-subhead1">PROJECTS COMPLETED</p>
+        </div>
+        <div class="grid-item">
+           <img src="{{ url_for('static', filename='Service/re1.png') }}" alt="Image 1">
+            <p class="data">2380</p>
+            <p class="cu-subhead1">REVIEWS SUBMITTED</p>
+        </div>
+        <div class="grid-item">
+           <img src="{{ url_for('static', filename='Service/re1.png') }}" alt="Image 1">
+
+            <p class="data">100%</p>
+            <p class="cu-subhead1">CUPS OF COFFEE</p>
+        </div>
+    </div>
+    </div>
+
+    <h1 class="main">Benefits of Our Website Services</h1>
+
+    <div class="gallery">
+        <p class="cu-subhead">Discover Everything About Us</p>
+        <h1 class="cu-head">Gallery</h1>
+    </div>
+
+    <div id="main-container">
+    <div id="buttons-container">
+        <div class="prev" onclick="changeSlide(-1)"><i class="fa-solid fa-circle-chevron-left"></i></div>
+    </div>
+    <div id="slider-container">
+        <div class="slider">
+<img src="{{ url_for('static', filename='Service/galry21.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/galry11.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/galry31.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/galry1.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/galry2.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/galry3.png') }}" alt="Image 1">
+
+
+        </div>
+    </div>
+    <div id="buttons-container">
+        <div class="next" onclick="changeSlide(1)"><i class="fa-solid fa-circle-chevron-right"></i></div>
+    </div>
+    </div>
+    
+    <div class="v-btn">
+    <a href="#"><button class="view-btn">VIEW MORE</button></a>
+    </div>
+
+    <div class="clients">
+        <h1 class="cu-head">Our clients</h1>
+        <p class="space1">Our clients section provides the opportunity to gain insights into the invaluable experiences of our satisfied customers. From reading  
+            their stories, you can discover how our services have shaped and improved lives around the world. Become the part of this community today to see what
+            it's like to be supported by a premier service provider!
+        </p>
+        <div class="client-names">
+<img src="{{ url_for('static', filename='Service/cl1.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/cl2.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/cl3.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/cl4.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/cl5.png') }}" alt="Image 1">
+<img src="{{ url_for('static', filename='Service/cl6.png') }}" alt="Image 1">
+
+
+        </div>
+    </div>
+
+  
+
+    <script>
+        // JavaScript for image slider functionality
+        let currentIndex = 0;
+        const slider = document.querySelector('.slider');
+        const totalSlides = document.querySelectorAll('.slider img').length;
+        const slidesToShow = 3;
+    
+        function changeSlide(direction) {
+          currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+          const translateValue = -currentIndex * (100 / slidesToShow) + '%';
+          slider.style.transform = 'translateX(' + translateValue + ')';
+        }
+    </script>
+  </body>
+</html>

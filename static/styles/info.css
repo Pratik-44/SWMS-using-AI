@@ -1,0 +1,39 @@
+/* Card container */
+.employee-card {
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Employee photo */
+.employee-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #fff; /* Makes the photo border with white space */
+    box-shadow: 0 0 0 4px #f4f4f4; /* Adds a subtle shadow around the photo */
+}
+
+/* Employee ID */
+.emp-id {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Employee information */
+.info h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info p {
+    margin-bottom: 5px;
+    color: #777;
+    font-size: 14px;
+}

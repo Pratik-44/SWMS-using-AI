@@ -1,0 +1,11 @@
+﻿Emp. Id,Role,Quantity_Produced,Time_Worked
+1,Inspection,555,330
+2,Inspection,346,300
+3,Inspection,365,330
+4,Cutting,4230,270
+5,Cutting,4070,240
+6,Cutting,3910,330
+7,Pkg &Load,354,300
+8,Pkg &Load,633,330
+9,Pkg &Load,618,240
+10,Pkg &Load,602,330
