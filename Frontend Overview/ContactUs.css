@@ -1,0 +1,75 @@
+.ct{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 25px 0px 0px 70px;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+
+.cu-subhead{
+    font-size: 20px;
+    color: rgb(19, 83, 116);    /*32,130,180*/
+    padding: 25px 0px 15px 0px;
+}
+
+.cu-head{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(38, 38, 38);
+    padding: 0px 0px 20px 0px;
+}
+
+label{
+    color:rgb(34, 105, 105);
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    background: local;
+    border-bottom: 1px solid rgb(32, 130, 180);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="submit"]{
+    background-color: rgb(34, 105, 105);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.center-btn{
+    display: block;
+}
+
+.center-btn:hover{
+    opacity: 0.8;
+}
+
+.sectn-2{
+    padding-left: 70px;
+}
+
+.map-container{
+    margin: 50px 100px 50px 100px;
+    padding-bottom: 20%;
+    position: relative;
+}
+
+.map-container iframe{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}

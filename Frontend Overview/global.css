@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 65px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 50px;
+}
+
+.logo{
+    background-image: url("./assets/swms-high-resolution-logo-transparent.png");
+    background-size: cover;
+    height: 55px;
+    width: 100%;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-second{
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(188, 188, 188);
+}
+
+.team{
+    color: rgb(38, 38, 38);
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
+
+.main{
+    background-color: rgb(220, 220, 220);  /*Previously 198, 198, 198*/
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(38, 38, 38);
+    margin-top: 25px;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    border-bottom: 0.5px solid white;
+}
+
+.footer{
+    background-color: #222f3d;
+    color: white;
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("./assets/swms-high-resolution-logo-transparent.png");
+    background-size: cover;
+    height: 60px;
+    width: 55px;
+}
+
+.copyright{
+    font-size:smaller;
+    margin-left: 25px;
+}
